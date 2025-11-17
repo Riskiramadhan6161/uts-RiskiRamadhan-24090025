@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>halaman login</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="login-container">
+        <div class="illustration-panel">
+            <img src="img/loginillustration_114360-739.avif" alt="Ilustrasi Login" class="illustration-image">
+    </div>
+
+        <div class="form-panel">
+            <h1 class="welcome-text">Welcome Back!</h1>
+
+            <form id="loginForm">
+                <div class="input-group">
+                    <label for="email" class="sr-only">Email Address</label>
+                    <div class="input-wrapper">
+                        <span class="icon">@</span>
+                        <input type="email" id="email" name="email" placeholder="Email Address" required>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label for="password" class="sr-only">Password</label>
+                    <div class="input-wrapper">
+                        <span class="icon">🔒</span>
+                        <input type="password" id="password" name="password" placeholder="Password" required>
+                    </div>
+                </div>
+
+                <div class="forgot-password">
+                    <a href="#">Forgot Password?</a>
+                </div>
+
+                <p id="error-message" class="error-message"></p>
+                
+                <button type="submit" id="loginButton" class="login-button">Login</button>
+            </form>
+
+            <div class="divider">
+                <span>Or</span>
+            </div>
+
+            <div class="social-login">
+                <button class="social-button google">
+                    <img src="img/Google__G__logo.svg.webp" alt="Google Icon" class="social-icon">
+                    Google
+                </button>
+                <button class="social-button facebook">
+                    <img src="img/Facebook_Logo_(2019).png.webp" alt="Facebook Icon" class="social-icon">
+                    Facebook
+                </button>
+                
+            </div>
+
+            <div class="signup-link">
+                Don't have an account? <a href="#">Sign Up</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
