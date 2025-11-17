@@ -1,5 +1,5 @@
 Nama= Riski Ramadhan 
 Nim= 24090025
-Link GitHub Repository= https://github.com/Riskiramadhan6161/uts-RiskiRamadhan-24090025/new/main?filename=README.md
+Link GitHub Repository= https://github.com/Riskiramadhan6161/uts-RiskiRamadhan-24090025
 Link GitHub Pages= https://riskiramadhan6161.github.io/uts-RiskiRamadhan-24090025/
 Deskripsi= Disini saya membuat website projek UTS yang berisikan halaman login, dashboard, dan list data products. Untuk halaman login disini saya menggunakan email : rizkiramadhanrizki36484@gmail.com, dan password saya menggunakan NIM yaitu : 24090025, email dan password tersebut sebagai syarat untuk masuk ke website tersebut, apabila email dan password salah terdapat pesan error. Dashboard sendiri itu menampilkan total products, Total Sales, dan Total Revenue dan . Untuk halaman list data product itu menampilkan produk yang dijual, harga, dan stock halaman product sendiri juga mampu mengedit dan menghapus product.
